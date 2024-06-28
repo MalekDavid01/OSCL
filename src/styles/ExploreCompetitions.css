@@ -1,0 +1,17 @@
+.explore-title {
+  background-color: #333333;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.pagination button {
+  margin: 0 5px;
+}
