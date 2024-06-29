@@ -1,5 +1,6 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
+import { LinkContainer } from 'react-router-bootstrap';
 import '../styles/NavigationBar.css';
 import logo from '../assets/logo.png';
 
@@ -19,11 +20,21 @@ const NavigationBar = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto nav-links">
-          <Nav.Link href="/">Home</Nav.Link>
-          <Nav.Link href="/explore">Explore Competitions</Nav.Link>
-          <Nav.Link href="/registration">Register</Nav.Link>
-          <Nav.Link href="/news">News</Nav.Link>
-          <Nav.Link href="/about">About Us</Nav.Link>
+          <LinkContainer to="/">
+            <Nav.Link>Home</Nav.Link>
+          </LinkContainer>
+          <LinkContainer to="/explore-competitions">
+            <Nav.Link>Explore Competitions</Nav.Link>
+          </LinkContainer>
+          <LinkContainer to="/register">
+            <Nav.Link>Register</Nav.Link>
+          </LinkContainer>
+          <LinkContainer to="/news">
+            <Nav.Link>News</Nav.Link>
+          </LinkContainer>
+          <LinkContainer to="/about-us">
+            <Nav.Link>About Us</Nav.Link>
+          </LinkContainer>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
