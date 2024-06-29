@@ -1,0 +1,12 @@
+.league-card {
+  margin-bottom: 1.5rem;
+}
+
+.league-card img {
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.league-card .card-body {
+  text-align: center;
+}

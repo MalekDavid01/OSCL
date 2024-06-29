@@ -1,0 +1,62 @@
+.hero-section {
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 5rem 0;
+    position: relative;
+    height: 70vh;  /* Adjust as needed - Used for the height of the soccer ball background home page*/
+  }
+  
+  .hero-section img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .welcome-message {
+    position: absolute;
+    top: 50%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    border-radius: 5px;
+    color: white;
+    width: 50%;
+  }
+  
+  .who-are-we {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  .about-section {
+    background-color: #AAAAAA;
+    color: white;
+    padding: 2rem 0;
+  }
+  
+  .about-section h2 {
+    text-align: center;
+  }
+  
+  .about-section p {
+    font-size: 1.2rem;
+  }
+  
+  .about-section img {
+    border-radius: 5px;
+  }
+  
+  .explore-text {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  button.btn-dark {
+    background-color: #333333;
+    border: none;
+  }
+  

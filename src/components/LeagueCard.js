@@ -1,10 +1,14 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
+import '../styles/LeagueCard.css';
 
 const LeagueCard = ({ league }) => {
+  // Ensure the image path is correct
+  const imageUrl = require(`../assets/${league.image}`).default;
+
   return (
-    <Card>
-      <Card.Img variant="top" src={`../assets/${league.image}`} />
+    <Card className="league-card">
+      <Card.Img variant="top" src={imageUrl} alt={league.name} />
       <Card.Body>
         <Card.Title>{league.name}</Card.Title>
         <Card.Text>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Accordion, Form, Button, Card } from 'react-bootstrap';
+import { Accordion, Form, Card } from 'react-bootstrap';
 
 const Filters = ({ filters, setFilters }) => {
   const handleCompetitionChange = (e) => {
