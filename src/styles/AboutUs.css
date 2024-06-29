@@ -1,0 +1,38 @@
+.about-us-container {
+    background-color: #D9D9D9;
+    padding: 20px;
+  }
+  
+  .about-title {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+    width: 100vw; /* Cover the entire viewport width */
+    margin-left: calc(-50vw + 50%); /* Adjust to center the full-width section */
+    position: relative; /* Maintain the context for margin adjustments */
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .card-text ul {
+    padding-left: 20px;
+  }
+  
+  .stadium-image {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
