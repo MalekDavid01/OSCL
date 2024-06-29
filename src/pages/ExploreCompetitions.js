@@ -1,85 +1,3 @@
-// import React, { useState } from 'react';
-// import { Container, Row, Col, Button, Form, Card, Pagination } from 'react-bootstrap';
-// import { Link } from 'react-router-dom';
-// import leaguesData from '../data/LeaguesData'; // Import the data
-// import '../styles/ExploreCompetitions.css';
-
-// const ExploreCompetitions = () => {
-//   const [currentPage, setCurrentPage] = useState(1);
-
-//   const leaguesPerPage = 9;
-//   const indexOfLastLeague = currentPage * leaguesPerPage;
-//   const indexOfFirstLeague = indexOfLastLeague - leaguesPerPage;
-//   const currentLeagues = leaguesData.slice(indexOfFirstLeague, indexOfLastLeague);
-
-//   const paginate = (pageNumber) => setCurrentPage(pageNumber);
-
-//   return (
-//     <Container fluid>
-//       <h2 className="explore-title">Explore Our Competitions</h2>
-//       <Row>
-//         <Col md={3}>
-//           <div className="filters">
-//             <h4>Filters</h4>
-//             <Form>
-//               <h5>Competition Level</h5>
-//               <Form.Check type="checkbox" label="Competitive" />
-//               <Form.Check type="checkbox" label="Recreational" />
-
-//               <h5>Age Group</h5>
-//               <Form.Check type="checkbox" label="Adult (18+)" />
-//               <Form.Check type="checkbox" label="Teenager (13-17)" />
-//               <Form.Check type="checkbox" label="Kids (8-12)" />
-
-//               <h5>Gender</h5>
-//               <Form.Check type="checkbox" label="Male" name="gender" />
-//               <Form.Check type="checkbox" label="Female" name="gender" />
-
-//               <h5>Day of the Week</h5>
-//               <Form.Check type="checkbox" label="Monday" name="Day" />
-//               <Form.Check type="checkbox" label="Tuesday" name="Day" />
-//               <Form.Check type="checkbox" label="Wednesday" name="Day" />
-//               <Form.Check type="checkbox" label="Thursday" name="Day" />
-//               <Form.Check type="checkbox" label="Friday" name="Day" />
-              
-//               <Button variant="dark" className="mt-3">Search</Button>
-//             </Form>
-//           </div>
-//         </Col>
-//         <Col md={9}>
-//           <Row>
-//             {currentLeagues.map(league => (
-//               <Col md={4} key={league.id}>
-//                 <Card className="mb-4 league-card">
-//                   <Link to={`/league/${league.id}`}>
-//                     <Card.Img variant="top" src={league.image} alt={league.name} className="league-card-img" />
-//                   </Link>
-//                   <Card.Body>
-//                     <Card.Title>
-//                       <Link to={`/league/${league.id}`}>{league.name}</Link>
-//                     </Card.Title>
-//                     <Card.Text>{league.competition} - {league.day}</Card.Text>
-//                   </Card.Body>
-//                 </Card>
-//               </Col>
-//             ))}
-//           </Row>
-//           <Pagination className="justify-content-center">
-//             {Array.from({ length: Math.ceil(leaguesData.length / leaguesPerPage) }, (_, i) => (
-//               <Pagination.Item key={i} onClick={() => paginate(i + 1)} active={i + 1 === currentPage}>
-//                 {i + 1}
-//               </Pagination.Item>
-//             ))}
-//           </Pagination>
-//         </Col>
-//       </Row>
-//     </Container>
-//   );
-// };
-
-// export default ExploreCompetitions;
-
-
 import React, { useState, useEffect } from 'react';
 import { Container, Row, Col, Form, Card, Pagination } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
@@ -139,7 +57,7 @@ const ExploreCompetitions = () => {
   }, [filters]);
 
   return (
-    <Container fluid>
+    <Container fluid className="explore-container">
       <h2 className="explore-title">Explore Our Competitions</h2>
       <Row>
         <Col md={3}>

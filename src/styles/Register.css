@@ -1,0 +1,74 @@
+.register-container {
+    background-color: #D9D9D9;
+    padding: 20px;
+  }
+  
+  .register-title {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+    width: 100vw; /* Cover the entire viewport width */
+    margin-left: calc(-50vw + 50%); /* Adjust to center the full-width section */
+    position: relative; /* Maintain the context for margin adjustments */
+  }
+  
+  .progress-bar-container {
+    width: 80%;
+    margin: 0 auto 20px;
+  }
+  
+  .form-step {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .form-step h3 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-step p {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  button.mt-3 {
+    display: inline-block;
+    width: 48%;
+    margin-right: 2%;
+  }
+  
+  button.mt-3:last-child {
+    margin-right: 0;
+  }
+
+  .form-step {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.is-invalid {
+  border-color: #dc3545;
+}
+
+.invalid-feedback {
+  color: #dc3545;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
