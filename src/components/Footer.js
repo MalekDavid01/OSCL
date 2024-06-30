@@ -8,7 +8,7 @@ const Footer = () => {
       <Container>
         <Row>
           <Col md={4}>
-            <p>The most loved competition in town!.</p>
+            <p>The most loved competition in town!</p>
           </Col>
           <Col md={4}>
             <ul>
