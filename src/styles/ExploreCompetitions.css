@@ -56,3 +56,7 @@
 .league-card .card-text {
   font-size: 0.875rem; /* Adjust the font size as needed */
 }
+
+.league-row > .col-md-4 {
+  margin-bottom: 20px;
+}

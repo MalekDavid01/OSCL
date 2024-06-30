@@ -1,62 +1,86 @@
-.hero-section {
-    background-size: cover;
-    background-position: center;
-    color: white;
-    text-align: center;
-    padding: 5rem 0;
-    position: relative;
-    height: 70vh;  /* Adjust as needed - Used for the height of the soccer ball background home page*/
-  }
-  
-  .hero-section img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .welcome-message {
-    position: absolute;
-    top: 50%;
-    left: 28%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 1rem;
-    border-radius: 5px;
-    color: white;
-    width: 50%;
-  }
-  
-  .who-are-we {
-    background-color: #333333;
-    color: white;
-    text-align: center;
-    padding: 1rem 0;
-  }
-  
-  .about-section {
-    background-color: #AAAAAA;
-    color: white;
-    padding: 2rem 0;
-  }
-  
-  .about-section h2 {
-    text-align: center;
-  }
-  
-  .about-section p {
-    font-size: 1.2rem;
-  }
-  
-  .about-section img {
-    border-radius: 5px;
-  }
-  
-  .explore-text {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
-  
-  button.btn-dark {
-    background-color: #333333;
-    border: none;
-  }
-  
+.news-container {
+  background-color: #D9D9D9;
+  padding: 20px;
+}
+
+.news-title {
+  background-color: #333333;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+  width: 100vw; /* Cover the entire viewport width */
+  margin-left: calc(-50vw + 50%); /* Adjust to center the full-width section */
+  position: relative; /* Maintain the context for margin adjustments */
+}
+
+.news-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.news-card-image {
+  object-fit: cover;
+  height: 200px; /* Set a fixed height for the image */
+  width: 100%; /* Ensure the image covers the full width of the card */
+}
+
+.news-card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.news-card-description {
+  flex-grow: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.news-article-container {
+  background-color: #D9D9D9;
+  padding: 20px;
+  margin-top: 0; /* Remove the top margin */
+}
+
+.news-article-header {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.news-article-date,
+.news-article-author {
+  text-align: center; /* Center the text */
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.news-article-image {
+  display: block;
+  max-width: 50%;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+.news-article-content {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-top: 20px;
+  text-align: justify;
+}
+
+.back-button {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.news-article-content {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}

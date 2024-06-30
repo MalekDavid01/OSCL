@@ -8,7 +8,7 @@ const Footer = () => {
       <Container>
         <Row>
           <Col md={4}>
-            <p>Lorem ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <p>The most loved competition in town!.</p>
           </Col>
           <Col md={4}>
             <ul>
