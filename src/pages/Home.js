@@ -3,14 +3,13 @@ import { Container, Row, Col, Button } from 'react-bootstrap';
 import '../styles/Home.css';
 import soccerField from '../assets/HomePageBall.webp';
 import soccerPlayer from '../assets/soccer.png';
-
 import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
   const navigate = useNavigate();
 
   const handleExploreClick = () => {
-    navigate('/explore');
+    navigate('/explore-competitions');
   };
 
   return (
