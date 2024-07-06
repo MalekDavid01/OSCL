@@ -73,3 +73,47 @@
 .justify-content-between {
   justify-content: space-between;
 }
+.react-calendar {
+  width: 100%;
+  border: none;
+}
+
+.react-calendar__tile {
+  height: 50px;
+  text-align: center;
+}
+
+.game-day {
+  background-color: #ff9999 !important; /* Highlight for game days */
+}
+
+.practice-day {
+  background-color: #99ccff !important; /* Highlight for practice days */
+}
+
+.legend {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.legend div {
+  display: flex;
+  align-items: center;
+}
+
+.legend span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  border: 1px solid #000;
+}
+
+.game-day-legend {
+  background-color: #ff9999;
+}
+
+.practice-day-legend {
+  background-color: #99ccff;
+}
