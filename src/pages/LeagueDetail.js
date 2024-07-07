@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-import { Container, Table, Button, Form } from 'react-bootstrap';
+import { Container, Row, Table, Button, Form } from 'react-bootstrap';
 import { useParams } from 'react-router-dom';
 import leaguesData from '../data/LeaguesData';
 import '../styles/LeagueDetail.css';
