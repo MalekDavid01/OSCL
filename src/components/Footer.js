@@ -89,9 +89,9 @@ const Footer = () => {
           <Col md={3}>
             <h5>Contact Us</h5>
             <p>
-              <FontAwesomeIcon icon={faPhone} /> +1 (613) 111-2222 <br />
+              <FontAwesomeIcon icon={faPhone} /> +1 (613) 111-1111 <br />
               <FontAwesomeIcon icon={faEnvelope} /> email@oscl.ca <br />
-              <FontAwesomeIcon icon={faMapMarkerAlt} /> 123 Soccer St, Ottawa, ON
+              <FontAwesomeIcon icon={faMapMarkerAlt} /> 124 Champions Drive Ottawa, Ontario K1Y 1G2
             </p>
           </Col>
           <Col md={3}>

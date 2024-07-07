@@ -46,6 +46,7 @@ const AboutUs = () => {
                 <ul>
                   <li>Address: 124 Champions Drive Ottawa, Ontario K1Y 1G2</li>
                   <li>Phone Number: 613-111-1111</li>
+                  <li>Email: email@oscl.ca</li>
                 </ul>
               </Card.Text>
             </Card.Body>
